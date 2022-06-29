@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="./main.js"></script> 
+    </head>
+    <body>
+        <div id="calc-bdy">
+            <div id="calc-scrn">
+                <p id="calc-scrn-txt">0</p>
+            </div>
+            <div id="calc-btn-cont">
+                <div onclick = "add_button()" id="add" class="op">+</div>
+                <div onclick = "sub_button()" id="sub" class="op"><i class="fa fa-solid fa-minus"></i></div>
+                <div onclick = "mult_button()" id="mult" class="op">x</div>
+                <div onclick = "div_button()" id="div" class="op">/</div>
+                <div onclick = "num_button(this.id)" id="one">1</div>
+                <div onclick = "num_button(this.id)" id="two">2</div>
+                <div onclick = "num_button(this.id)" id="three">3</div>
+                <div onclick = "num_button(this.id)" id="four">4</div>
+                <div onclick = "num_button(this.id)" id="five">5</div>
+                <div onclick = "num_button(this.id)" id="six">6</div>
+                <div onclick = "num_button(this.id)" id="seven">7</div>
+                <div onclick = "num_button(this.id)" id="eight">8</div>
+                <div onclick = "num_button(this.id)" id="nine">9</div>
+                <div onclick = "num_button(this.id)" id="zero">0</div>
+                <div onclick = "clear_button()" id="clear">C</div>
+                <div onclick = "equal_button()" id="equal">=</div>
+            </div>
+        </div>
+        <!-- <script src="./index.js"></script> -->
+    </body>
+</html>
